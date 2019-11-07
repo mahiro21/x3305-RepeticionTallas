@@ -36,13 +36,13 @@ public class Main {
         int l = 0;
         int xxl = 0;
         int total;
-
         double porcentaje1;
         double porcentaje2;
         double porcentaje3;
 
         System.out.println("Talla clientes");
         System.out.println("=================");
+        //Bucle
         do {
             System.out.print("Inserte el su talla..:");
             consol = SCN.nextLine().charAt(0);
@@ -64,6 +64,7 @@ public class Main {
         porcentaje1 = (double) s / (double) total * 100;
         porcentaje2 = (double) l / (double) total * 100;
         porcentaje3 = (double) xxl / (double) total * 100;
+        //Resultados
         System.out.printf(Locale.ENGLISH, "Clientes con talla s ....:"
                 + " %.2f%%%n", porcentaje1);
         System.out.printf(Locale.ENGLISH, "Clientes con talla l  ....:"
